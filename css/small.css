@@ -1,0 +1,239 @@
+
+/* Header */
+
+  header {
+    background-color: #82B7C9;
+    padding: 1rem 10%;
+    height: 6em;
+
+    display: flex;
+    flex-flow: column;
+    
+    color: white;
+    
+    text-align: center;
+    align-items: left;
+    justify-content: center;
+    
+    
+    
+  }
+  header h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  header h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  header img{
+  box-shadow: 0 0 10px #1f2041;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    position: relative;
+    background-color: white;
+    margin-top: 4em;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #82B7C9;
+    padding: 1rem 2%;
+    line-height: 1.2rem;
+    display: flex;
+    flex-flow: column;
+    color: white;
+    text-align: center;
+    align-items: left;
+    justify-content: center;
+  }
+
+  /* Navigation */
+
+  nav {
+    background-color: #556b2f;
+    text-align: center;
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    padding: 5px 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+nav ul li:hover, .active:hover {
+    background-color: #1f2041;
+    color: #fff;
+}
+
+.main-nav li:first-child {
+    font-size: 1.6rem;
+    display: block;
+}
+
+.main-nav li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+.main-nav.responsive li:first-child a span.exit-button {
+    font-size : xx-large;
+}
+
+.main-nav.responsive li:first-child a span.exit-button, .main-nav li:first-child a span.hamburger {
+    display : inline;
+}
+
+.main-nav.responsive li:first-child a span.hamburger, .main-nav li:first-child a span.exit-button {
+    display : none;
+} 
+
+.main-nav li {
+    display: none;
+}
+
+
+  /* Main */
+
+  .content-container {
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.content-box {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 85%;
+    padding: 15px;
+    background-color: #1f2041;
+    color: #ffffff;
+    border-radius: 5px;   
+}
+
+.hero-image{
+  margin: 10px auto;
+  width: 85%;
+  height: 300px;
+  border: 1px solid;
+  
+}
+
+.herodiv {
+    position: relative;
+    margin: 10px auto;
+    width: 85%;
+    height: 300px;
+}
+
+.table-grid1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px;
+  border-right: 1px;
+  font-size: 0.85rem;
+  color: white;
+}
+
+.table-grid1 > span {
+  padding: 5px;
+  border-left: 1px;
+  border-bottom: 2px;
+  
+}
+
+table {
+  margin: 0 auto;
+  width: 60%;
+  border:none;
+  border-collapse: collapse;    
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 2); 
+  margin-bottom: 1.5rem;
+}
+
+th {
+  background-color: darkolivegreen;
+  color: #eee;
+  padding: 15px;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+
+}
+
+td {
+  background-color: rgb(160, 160, 160);
+  color: rgb(5, 22, 100); 
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+table td:first-child, table th:first-child{
+  border-left: none;
+
+}
+
+table td:last-child, table th:last-child {
+  border-right: none;
+  
+}
+
+.weather-summary{
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  padding: .5rem;
+  font-weight: bold;
+  background: radial-gradient(rgba(255, 255, 255, 0.082), rgb(194, 188, 101));
+  border: 3px solid #1f2041;
+  border-width: 2px;
+}
+
+.head-content {
+  text-align: right;
+}
+
+.head-value {
+  text-align: left;
+  color: #1f2041;
+  font-size: 1.1rem;
+}
+
+/* Button*/
+
+.submitBtn {
+  border: none;
+  background-color: white;
+  color: #fff;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 15%;     
+  width: 50%;
+  max-width: 20rem;
+  box-sizing: border-box;
+  display: block;
+  margin-right: auto;
+}

@@ -1,0 +1,21 @@
+@media only screen and (min-width: 1028px) {
+.main-nav {
+    display: flex;
+}
+
+.main-nav li:first-child {
+    font-size: 1.6rem;
+    display: none;
+}
+
+.main-nav li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+
+
+.no-display {
+    display: block;
+}
+}
